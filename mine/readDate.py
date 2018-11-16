@@ -4,6 +4,7 @@ from collections import Counter
 from collections import defaultdict
 import numpy as np
 import matplotlib.pyplot as plt
+# import plotly.plotly
 
 
 # 指定文件名，然后使用 with open() as 打开
@@ -42,4 +43,3 @@ with open(filename) as f:
     a = sorted(count_dict.items(), key=lambda item:item[0])
     print(a)
 
-    

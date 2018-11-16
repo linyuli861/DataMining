@@ -15,6 +15,4 @@ data.loc[row_indexs, 'duration'] = None  # 过滤数据
 # 自定义列向量插值函数
 # s为列向量，n为被插值的位置，k为取前后的数据个数，默认为5
 
-
-
 data.to_csv(outfile)
