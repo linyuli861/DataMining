@@ -33,6 +33,7 @@ plt.title("Day_Number of rides", fontsize=20)
 plt.xlabel("Day", fontsize=20)
 plt.ylabel("Number of rides", fontsize=20)
 plt.tick_params(axis='both', labelsize=6)
+plt.savefig("../graph/day-numberOfRide-scatter.jpg")
 plt.show()
 
 l1 = plt.plot(x_values, y_values, "b--")
@@ -41,6 +42,7 @@ plt.title("Day_Number of rides", fontsize=20)
 plt.xlabel("Day", fontsize=20)
 plt.ylabel("Number of rides", fontsize=20)
 plt.legend()
+plt.savefig("../graph/day-numberOfRide-plot.jpg")
 plt.show()
 
 

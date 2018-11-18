@@ -34,6 +34,7 @@ plt.title("Day_Number of rides", fontsize=20)
 plt.xlabel("Day", fontsize=20)
 plt.ylabel("Number of rides", fontsize=20)
 plt.tick_params(axis='both', labelsize=6)
+plt.savefig("../graph/weekDay-numberOfRide-scatter.jpg")
 plt.show()
 
 l1 = plt.plot(x_values, y_values, "b--")
@@ -42,6 +43,7 @@ plt.title("Weekday_Number of rides", fontsize=20)
 plt.xlabel("Weekday", fontsize=20)
 plt.ylabel("Number of rides", fontsize=20)
 plt.legend()
+plt.savefig("../graph/weekDay-numberOfRide-plot.jpg")
 plt.show()
 
 

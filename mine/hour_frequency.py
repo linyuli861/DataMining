@@ -31,6 +31,7 @@ plt.title("Hour_Number of rides", fontsize=20)
 plt.xlabel("Hour", fontsize=20)
 plt.ylabel("Number of rides", fontsize=20)
 plt.tick_params(axis='both', labelsize=14)
+plt.savefig("../graph/hour-numberOfRide-scatter.jpg")
 plt.show()
 
 
