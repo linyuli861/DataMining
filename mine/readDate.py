@@ -1,5 +1,6 @@
 # 导入csv模块
 import csv
+from datetime import datetime
 from collections import Counter
 from collections import defaultdict
 import numpy as np
@@ -21,9 +22,11 @@ with open(filename) as f:
     # 获取开始骑行的时间
     start_time = []
     end_time = []
+    site_num = []
     for row in reader:
         start_time.append(row[2])
         end_time.append(row[3])
+        site_num.append(row[4])
 
     # 获取开始骑行时间中的hour
     len1 = len(start_time)
@@ -37,7 +40,10 @@ with open(filename) as f:
 
     # 统计具体每个hour使用小黄车的人
     count_dict = defaultdict(int)
-    for item in s1:
+    # for item in s1:
+    #     count_dict[item] += 1
+
+    for item in site_num:
         count_dict[item] += 1
     print(count_dict)
     a = sorted(count_dict.items(), key=lambda item:item[0])
