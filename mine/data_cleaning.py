@@ -25,7 +25,7 @@ df['time'] = df['start_time'].dt.date
 # df.groupby(['start_time'], as_index=False)['start_time'].agg({'cnt': 'count'})
 
 # print(df['time'])
-granded = df.groupby(df['month'], ).groups
+granded = df.groupby(df['day'], ).groups
 print(granded)
 print(df.shape)
 print(df.head())
