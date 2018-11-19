@@ -22,17 +22,17 @@ print(hour_frequency)
 
 x_values = []
 y_values = []
-for i in range(0, 23):
+for i in range(0, 24):
     x_values.append(hour_frequency[i][0])
     y_values.append(hour_frequency[i][1])
 
-# plt.scatter(x_values, y_values, c=y_values, edgecolors='blue', s=60)
-# plt.title("Hour_Number of rides", fontsize=20)
-# plt.xlabel("Hour", fontsize=20)
-# plt.ylabel("Number of rides", fontsize=20)
-# plt.tick_params(axis='both', labelsize=14)
-# plt.savefig("../graph/hour-numberOfRide-scatter.jpg")
-# plt.show()
+plt.scatter(x_values, y_values, c=y_values, edgecolors='blue', s=60)
+plt.title("Hour_Number of rides", fontsize=20)
+plt.xlabel("Hour", fontsize=20)
+plt.ylabel("Number of rides", fontsize=20)
+plt.tick_params(axis='both', labelsize=14)
+plt.savefig("../graph/hour-numberOfRide-scatter.jpg")
+plt.show()
 
 # plt.style.use["ggplot"]
 plt.style.use("ggplot")
@@ -48,6 +48,6 @@ fig = plt.figure(figsize=(16, 24))
 ax1 = fig.add_subplot(1, 1, 1)
 fig.set_size_inches(18, 8)
 sns.barplot(data=df, x=x_values, y=y_values, ax=ax1)
-ax1.set(xlabel="day", ylabel="y_values", title="day-count")
+ax1.set(xlabel="day", ylabel="y_values", title="hour-count")
 plt.savefig("../graph/hour-numberOfRide-barplot.jpg")
 plt.show()
