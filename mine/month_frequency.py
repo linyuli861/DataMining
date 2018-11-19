@@ -3,6 +3,8 @@ import csv
 import pandas as pd
 from collections import defaultdict
 import matplotlib.pyplot as plt
+import seaborn as sns
+
 
 df = pd.read_csv("../modify_data/time.csv", header=0, sep=",")
 cols = df.columns  # return column name
@@ -29,4 +31,14 @@ plt.title("Month_Number of rides", fontsize=20)
 plt.xlabel("Month", fontsize=20)
 plt.ylabel("Number of rides", fontsize=20)
 plt.tick_params(axis='both', labelsize=14)
+plt.show()
+
+
+plt.style.use("ggplot")
+fig = plt.figure(figsize=(16, 24))
+ax1 = fig.add_subplot(1, 1, 1)
+fig.set_size_inches(18, 8)
+sns.barplot(data=df, x=x_values, y=y_values, ax=ax1)
+ax1.set(xlabel="day", ylabel="y_values", title="day-count")
+plt.savefig("../graph/month-numberOfRide-barplot.jpg")
 plt.show()

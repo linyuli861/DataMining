@@ -5,6 +5,7 @@ import seaborn as sns
 from collections import defaultdict
 import matplotlib.pyplot as plt
 from datetime import datetime
+import numpy as np
 
 
 df = pd.read_csv("../modify_data/time.csv", header=0, sep=",")
@@ -45,5 +46,14 @@ plt.legend()
 plt.savefig("../graph/day-numberOfRide-plot.jpg")
 plt.show()
 
-
+# plt.style.use["ggplot"]
+plt.style.use("ggplot")
+fig = plt.figure(figsize=(8, 12))
+ax2 = fig.add_subplot(1, 1, 1)
+fig.set_size_inches(8,6)
+sns.barplot(data=df, x=x_values, y=y_values, ax=ax2)
+ax2.set(xlabel="day", ylabel="y_values", title="day-count")
+my_x_ticks = np.arange(x_values[0],x_values[-1])
+plt.savefig("../graph/day-numberOfRide-barplot.jpg")
+plt.show()
 
