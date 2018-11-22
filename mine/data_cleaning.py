@@ -29,6 +29,9 @@ granded = df.groupby(df['day'], ).groups
 # print(granded)
 # print(df.shape)
 # print(df.head())
+# 将数据写入文件three_cleaning_data.csv
+dataframe = pd.DataFrame({'time': df['time'], 'day': df['day'], 'month': df['month'], 'hour': df['hour'], 'week_day': df['week_day']})
+dataframe.to_csv("../modify_data/three_cleaning_data.csv")
 
 # plt.style.use["ggplot"]
 plt.style.use("ggplot")

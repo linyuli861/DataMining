@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 from datetime import datetime
 
 
-df = pd.read_csv("../modify_data/time.csv", header=0, sep=",")
+df = pd.read_csv("../modify_data/three_cleaning_data.csv", header=0, sep=",")
 cols = df.columns  # return column name
 # print(cols)  # print column name
 

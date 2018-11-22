@@ -2,19 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4cc2721-7d76-46c8-b582-81cb591dacc3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/data/la_metro_gbfs_trips_Q1_2017.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/la_metro_gbfs_trips_Q2_2017.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/metro-2018-1.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/metro-2018-2.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/metro-bike-share-trips-2017-q3.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/metro-bike-share-trips-2018-q1.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/metro-bike-share-trips-2018-q2.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mine/mining_three_csv.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/metro-2018.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/metro-2018-3.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/day-numberOfRide-barplot.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/graph/day-numberOfRide-barplot.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/day-numberOfRide-plot.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/graph/day-numberOfRide-plot.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/day-numberOfRide-scatter.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/graph/day-numberOfRide-scatter.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mine/data_cleaning.py" beforeDir="false" afterPath="$PROJECT_DIR$/mine/data_cleaning.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/readDate.py" beforeDir="false" afterPath="$PROJECT_DIR$/mine/readDate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/mine/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mine/day_frequency.py" beforeDir="false" afterPath="$PROJECT_DIR$/mine/day_frequency.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mine/hour_frequency.py" beforeDir="false" afterPath="$PROJECT_DIR$/mine/hour_frequency.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mine/month_frequency.py" beforeDir="false" afterPath="$PROJECT_DIR$/mine/month_frequency.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mine/week_frequency.py" beforeDir="false" afterPath="$PROJECT_DIR$/mine/week_frequency.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,14 +23,14 @@
     <SUITE FILE_PATH="coverage/DataMining$readDate.coverage" NAME="readDate Coverage Results" MODIFIED="1542536832791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mine" />
     <SUITE FILE_PATH="coverage/DataMining$hour_people.coverage" NAME="hour_people Coverage Results" MODIFIED="1542557961786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mine" />
     <SUITE FILE_PATH="coverage/DataMining$analysis.coverage" NAME="analysis Coverage Results" MODIFIED="1542547734791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mine" />
-    <SUITE FILE_PATH="coverage/DataMining$data_cleaning.coverage" NAME="data_cleaning Coverage Results" MODIFIED="1542604399321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mine" />
-    <SUITE FILE_PATH="coverage/DataMining$month_frequency.coverage" NAME="month_frequency Coverage Results" MODIFIED="1542601977836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mine" />
-    <SUITE FILE_PATH="coverage/DataMining$week_frequency.coverage" NAME="week_frequency Coverage Results" MODIFIED="1542598384234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mine" />
+    <SUITE FILE_PATH="coverage/DataMining$data_cleaning.coverage" NAME="data_cleaning Coverage Results" MODIFIED="1542875586613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mine" />
+    <SUITE FILE_PATH="coverage/DataMining$month_frequency.coverage" NAME="month_frequency Coverage Results" MODIFIED="1542875704510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mine" />
+    <SUITE FILE_PATH="coverage/DataMining$week_frequency.coverage" NAME="week_frequency Coverage Results" MODIFIED="1542875735675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mine" />
     <SUITE FILE_PATH="coverage/DataMining$graph.coverage" NAME="graph Coverage Results" MODIFIED="1542377227962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mine" />
     <SUITE FILE_PATH="coverage/DataMining$dataCleaning.coverage" NAME="dataCleaning Coverage Results" MODIFIED="1542548686529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mine" />
-    <SUITE FILE_PATH="coverage/DataMining$day_frequency.coverage" NAME="day_frequency Coverage Results" MODIFIED="1542597977466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mine" />
-    <SUITE FILE_PATH="coverage/DataMining$hour_frequency.coverage" NAME="hour_frequency Coverage Results" MODIFIED="1542601942585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mine" />
     <SUITE FILE_PATH="coverage/DataMining$mining_three_csv.coverage" NAME="mining_three_csv Coverage Results" MODIFIED="1542604722144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mine" />
+    <SUITE FILE_PATH="coverage/DataMining$day_frequency.coverage" NAME="day_frequency Coverage Results" MODIFIED="1542875631815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mine" />
+    <SUITE FILE_PATH="coverage/DataMining$hour_frequency.coverage" NAME="hour_frequency Coverage Results" MODIFIED="1542875686082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mine" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -52,16 +48,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="hour-numberOfRide-scatter.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graph/hour-numberOfRide-scatter.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="month-numberOfRide-barplot.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graph/month-numberOfRide-barplot.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
       <file leaf-file-name="weekDay-numberOfRide-plot.jpg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/graph/weekDay-numberOfRide-plot.jpg">
           <provider selected="true" editor-type-id="images" />
@@ -89,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data_cleaning.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="data_cleaning.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mine/data_cleaning.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+            <state relative-caret-position="-207">
+              <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
               <folding>
                 <element signature="e#17#27#0" expanded="true" />
               </folding>
@@ -101,19 +87,58 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="day-numberOfRide-plot.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graph/day-numberOfRide-plot.jpg">
-          <provider selected="true" editor-type-id="images" />
+      <file leaf-file-name="day_frequency.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mine/day_frequency.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="day-numberOfRide-scatter.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graph/day-numberOfRide-scatter.jpg">
-          <provider selected="true" editor-type-id="images" />
+      <file leaf-file-name="hour_frequency.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mine/hour_frequency.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="83">
+              <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+              <folding>
+                <element signature="e#17#27#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="hour-numberOfRide-barplot.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graph/hour-numberOfRide-barplot.jpg">
-          <provider selected="true" editor-type-id="images" />
+      <file leaf-file-name="analysis.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mine/analysis.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="month_frequency.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mine/month_frequency.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#17#27#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="week_frequency.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mine/week_frequency.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+              <folding>
+                <element signature="e#17#27#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -138,12 +163,12 @@
         <option value="$PROJECT_DIR$/mine/analysis.py" />
         <option value="$PROJECT_DIR$/mine/dataCleaning.py" />
         <option value="$PROJECT_DIR$/mine/readDate.py" />
+        <option value="$PROJECT_DIR$/mine/mining_three_csv.py" />
+        <option value="$PROJECT_DIR$/mine/month_frequency.py" />
         <option value="$PROJECT_DIR$/mine/data_cleaning.py" />
         <option value="$PROJECT_DIR$/mine/day_frequency.py" />
-        <option value="$PROJECT_DIR$/mine/week_frequency.py" />
         <option value="$PROJECT_DIR$/mine/hour_frequency.py" />
-        <option value="$PROJECT_DIR$/mine/month_frequency.py" />
-        <option value="$PROJECT_DIR$/mine/mining_three_csv.py" />
+        <option value="$PROJECT_DIR$/mine/week_frequency.py" />
       </list>
     </option>
   </component>
@@ -157,10 +182,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1449" />
-    <option name="y" value="167" />
-    <option name="width" value="1458" />
-    <option name="height" value="918" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1943" />
+    <option name="height" value="1103" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -168,27 +193,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="DataMining" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataMining" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataMining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataMining" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataMining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataMining" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataMining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataMining" type="462c0819:PsiDirectoryNode" />
-              <item name="graph" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataMining" type="b2602c69:ProjectViewProjectNode" />
@@ -204,7 +215,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -234,7 +244,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.mining_three_csv">
+  <component name="RunManager" selected="Python.week_frequency">
     <configuration name="data_cleaning" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DataMining" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -254,6 +264,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="day_frequency" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DataMining" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mine" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mine/day_frequency.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="hour_frequency" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DataMining" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -268,25 +297,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mine/hour_frequency.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="mining_three_csv" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DataMining" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mine" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mine/mining_three_csv.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -333,17 +343,17 @@
     <list>
       <item itemvalue="Python.hour_frequency" />
       <item itemvalue="Python.month_frequency" />
-      <item itemvalue="Python.week_frequency" />
-      <item itemvalue="Python.mining_three_csv" />
       <item itemvalue="Python.data_cleaning" />
+      <item itemvalue="Python.day_frequency" />
+      <item itemvalue="Python.week_frequency" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.mining_three_csv" />
-        <item itemvalue="Python.data_cleaning" />
+        <item itemvalue="Python.week_frequency" />
         <item itemvalue="Python.month_frequency" />
         <item itemvalue="Python.hour_frequency" />
-        <item itemvalue="Python.week_frequency" />
+        <item itemvalue="Python.day_frequency" />
+        <item itemvalue="Python.data_cleaning" />
       </list>
     </recent_temporary>
   </component>
@@ -361,7 +371,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1447" y="169" width="1166" height="734" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -369,13 +379,12 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2478185" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24738675" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.2595819" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34566787" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35165724" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.66693616" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.6483428" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.271777" />
@@ -385,6 +394,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,9 +467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="817">
           <caret line="48" column="59" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
-          <folding>
-            <element signature="e#10#20#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -485,9 +492,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-          <folding>
-            <element signature="e#10#20#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -550,14 +554,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/metro-bike-share-trips-2018-q3.csv">
-      <provider editor-type-id="csv-text-editor">
-        <state relative-caret-position="107">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-text-editor">
+        <state relative-caret-position="107">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -569,12 +573,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/metro-2018-3.csv">
+      <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="csv-text-editor">
         <state relative-caret-position="-1810146">
           <caret column="71" selection-start-column="71" selection-end-column="71" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/mine/hour_people.py" />
     <entry file="file://$PROJECT_DIR$/mine/dataCleaning.py" />
@@ -592,40 +596,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mine/analysis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mine/day_frequency.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="53" column="52" lean-forward="true" selection-start-line="53" selection-start-column="52" selection-end-line="53" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mine/month_frequency.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
-          <folding>
-            <element signature="e#17#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mine/week_frequency.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="53" column="60" selection-start-line="53" selection-start-column="60" selection-end-line="53" selection-end-column="60" />
-          <folding>
-            <element signature="e#17#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/metro-bike-share-trips-2018-q2.csv">
       <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
@@ -639,24 +609,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="48" column="59" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
-          <folding>
-            <element signature="e#10#20#0" expanded="true" />
-          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mine/hour_frequency.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding>
-            <element signature="e#17#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modify_data/three_months_data.csv">
-      <provider selected="true" editor-type-id="LargeFileEditor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/graph/day-numberOfRide-plot.jpg">
       <provider selected="true" editor-type-id="images" />
@@ -685,6 +639,43 @@
     <entry file="file://$PROJECT_DIR$/graph/day-numberOfRide-barplot.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/modify_data/three_months_data.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mine/analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mine/data_cleaning.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-207">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+          <folding>
+            <element signature="e#17#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mine/day_frequency.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mine/hour_frequency.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+          <folding>
+            <element signature="e#17#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mine/mining_three_csv.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
@@ -695,10 +686,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mine/data_cleaning.py">
+    <entry file="file://$PROJECT_DIR$/mine/month_frequency.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        <state relative-caret-position="116">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#17#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mine/week_frequency.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
           <folding>
             <element signature="e#17#27#0" expanded="true" />
           </folding>
