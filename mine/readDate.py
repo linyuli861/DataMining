@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 
 
 # 指定文件名，然后使用 with open() as 打开
-filename = "../data/metro-2018.csv"
+filename = "../data/metro-2018-3.csv"
 with open(filename) as f:
     # 创建一个阅读器：将f传给csv.reader
     reader = csv.reader(f)

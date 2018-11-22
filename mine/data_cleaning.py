@@ -9,7 +9,7 @@ from scipy import stats
 from datetime import datetime
 
 
-df = pd.read_csv("../data/metro-2018.csv", parse_dates=['start_time'], encoding="ISO-8859-1")
+df = pd.read_csv("../data/metro-2018-3.csv", parse_dates=['start_time'], encoding="ISO-8859-1")
 cols = df.columns  # return column name
 print(cols)  # print column name
 # print(df.shape)

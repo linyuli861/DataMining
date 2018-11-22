@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 
-df = pd.read_csv("../data/metro-2018.csv", header=0, sep=",")
+df = pd.read_csv("../data/metro-2018-3.csv", header=0, sep=",")
 cols = df.columns  # return column name
 print(cols)  # print column name
 months = []
